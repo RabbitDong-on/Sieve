@@ -1,0 +1,861 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/failslow/kafka/core/build/dependant-libs-2.13.5/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/failslow/kafka/tools/build/dependant-libs-2.13.5/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/failslow/kafka/connect/api/build/dependant-libs/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/failslow/kafka/connect/transforms/build/dependant-libs/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/failslow/kafka/connect/runtime/build/dependant-libs/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/failslow/kafka/connect/file/build/dependant-libs/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/failslow/kafka/connect/mirror/build/dependant-libs/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/failslow/kafka/connect/mirror-client/build/dependant-libs/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/failslow/kafka/connect/json/build/dependant-libs/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/failslow/kafka/connect/basic-auth-extension/build/dependant-libs/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[2024-07-13 08:58:10,018] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2024-07-13 08:58:10,244] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2024-07-13 08:58:10,383] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2024-07-13 08:58:10,387] INFO starting (kafka.server.KafkaServer)
+[2024-07-13 08:58:10,387] INFO Connecting to zookeeper on 172.30.0.2:2181,172.30.0.3:2181,172.30.0.4:2181 (kafka.server.KafkaServer)
+[2024-07-13 08:58:10,403] INFO [ZooKeeperClient Kafka server] Initializing a new session to 172.30.0.2:2181,172.30.0.3:2181,172.30.0.4:2181. (kafka.zookeeper.ZooKeeperClient)
+[2024-07-13 08:58:10,407] INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,407] INFO Client environment:host.name=35b030a92239 (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,407] INFO Client environment:java.version=11.0.19 (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,407] INFO Client environment:java.vendor=Ubuntu (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,407] INFO Client environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,407] INFO Client environment:java.class.path=/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/netty-transport-4.1.73.Final.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/metrics-core-2.2.0.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/netty-buffer-4.1.73.Final.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/slf4j-api-1.7.30.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/netty-tcnative-classes-2.0.46.Final.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/kafka-raft-2.8.2.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/scala-logging_2.13-3.9.2.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/jackson-datatype-jdk8-2.10.5.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/netty-common-4.1.73.Final.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/netty-transport-native-epoll-4.1.73.Final.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/snappy-java-1.1.8.1.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/scala-collection-compat_2.13-2.3.0.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/zstd-jni-1.4.9-1.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/netty-handler-4.1.73.Final.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/jackson-dataformat-csv-2.10.5.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/log4j-1.2.17.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/zookeeper-jute-3.5.9.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/scala-reflect-2.13.5.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/jackson-module-paranamer-2.10.5.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/jackson-core-2.10.5.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/jackson-databind-2.10.5.1.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/paranamer-2.8.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/netty-codec-4.1.73.Final.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/slf4j-log4j12-1.7.30.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/scala-java8-compat_2.13-0.9.1.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/argparse4j-0.7.0.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/jackson-annotations-2.10.5.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/netty-transport-native-unix-common-4.1.73.Final.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/netty-resolver-4.1.73.Final.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/netty-transport-classes-epoll-4.1.73.Final.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/commons-cli-1.4.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/lz4-java-1.7.1.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/jackson-module-scala_2.13-2.10.5.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/zookeeper-3.5.9.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/scala-library-2.13.5.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/jopt-simple-5.0.4.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/kafka-metadata-2.8.2.jar:/failslow/kafka/bin/../core/build/dependant-libs-2.13.5/audience-annotations-0.5.0.jar:/failslow/kafka/bin/../examples/build/libs/kafka-examples-2.8.2-sources.jar:/failslow/kafka/bin/../examples/build/libs/kafka-examples-2.8.2.jar:/failslow/kafka/bin/../clients/build/libs/kafka-clients-2.8.2-sources.jar:/failslow/kafka/bin/../clients/build/libs/kafka-clients-2.8.2.jar:/failslow/kafka/bin/../streams/build/libs/kafka-streams-2.8.2-sources.jar:/failslow/kafka/bin/../streams/build/libs/kafka-streams-2.8.2.jar:/failslow/kafka/bin/../streams/examples/build/libs/kafka-streams-examples-2.8.2-sources.jar:/failslow/kafka/bin/../streams/examples/build/libs/kafka-streams-examples-2.8.2.jar:/failslow/kafka/bin/../streams/build/dependant-libs-2.13.5/rocksdbjni-5.18.4.jar:/failslow/kafka/bin/../streams/build/dependant-libs-2.13.5/hamcrest-2.2.jar:/failslow/kafka/bin/../streams/build/dependant-libs-2.13.5/hamcrest-core-1.3.jar:/failslow/kafka/bin/../shell/build/libs/kafka-shell-2.8.2-sources.jar:/failslow/kafka/bin/../shell/build/libs/kafka-shell-2.8.2.jar:/failslow/kafka/bin/../shell/build/dependant-libs-2.13.5/jline-3.12.1.jar:/failslow/kafka/bin/../tools/build/libs/kafka-tools-2.8.2-sources.jar:/failslow/kafka/bin/../tools/build/libs/kafka-tools-2.8.2.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jetty-io-9.4.48.v20220622.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jackson-jaxrs-base-2.10.5.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jetty-util-9.4.48.v20220622.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jakarta.ws.rs-api-2.1.6.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/aopalliance-repackaged-2.6.1.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/javax.servlet-api-3.1.0.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jetty-http-9.4.48.v20220622.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jetty-util-ajax-9.4.48.v20220622.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jersey-container-servlet-core-2.34.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/slf4j-api-1.7.30.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jetty-continuation-9.4.48.v20220622.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jackson-datatype-jdk8-2.10.5.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jetty-server-9.4.48.v20220622.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jaxb-api-2.3.0.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/snappy-java-1.1.8.1.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/zstd-jni-1.4.9-1.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jetty-servlets-9.4.48.v20220622.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/javassist-3.27.0-GA.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jetty-security-9.4.48.v20220622.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jersey-container-servlet-2.34.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/log4j-1.2.17.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jersey-client-2.34.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jakarta.inject-2.6.1.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/activation-1.1.1.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jakarta.validation-api-2.0.2.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jackson-core-2.10.5.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jackson-jaxrs-json-provider-2.10.5.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jackson-databind-2.10.5.1.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jetty-servlet-9.4.48.v20220622.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/hk2-utils-2.6.1.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/slf4j-log4j12-1.7.30.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jersey-hk2-2.34.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jakarta.annotation-api-1.3.5.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/argparse4j-0.7.0.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jackson-annotations-2.10.5.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/kafka-log4j-appender-2.8.2.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jakarta.activation-api-1.2.1.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jackson-module-jaxb-annotations-2.10.5.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/lz4-java-1.7.1.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/hk2-locator-2.6.1.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jersey-common-2.34.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/hk2-api-2.6.1.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jersey-server-2.34.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/osgi-resource-locator-1.0.3.jar:/failslow/kafka/bin/../tools/build/dependant-libs-2.13.5/jakarta.xml.bind-api-2.3.2.jar:/failslow/kafka/bin/../connect/api/build/libs/connect-api-2.8.2-sources.jar:/failslow/kafka/bin/../connect/api/build/libs/connect-api-2.8.2.jar:/failslow/kafka/bin/../connect/api/build/dependant-libs/slf4j-api-1.7.30.jar:/failslow/kafka/bin/../connect/api/build/dependant-libs/snappy-java-1.1.8.1.jar:/failslow/kafka/bin/../connect/api/build/dependant-libs/zstd-jni-1.4.9-1.jar:/failslow/kafka/bin/../connect/api/build/dependant-libs/log4j-1.2.17.jar:/failslow/kafka/bin/../connect/api/build/dependant-libs/slf4j-log4j12-1.7.30.jar:/failslow/kafka/bin/../connect/api/build/dependant-libs/lz4-java-1.7.1.jar:/failslow/kafka/bin/../connect/api/build/dependant-libs/javax.ws.rs-api-2.1.1.jar:/failslow/kafka/bin/../connect/transforms/build/libs/connect-transforms-2.8.2-sources.jar:/failslow/kafka/bin/../connect/transforms/build/libs/connect-transforms-2.8.2.jar:/failslow/kafka/bin/../connect/transforms/build/dependant-libs/slf4j-api-1.7.30.jar:/failslow/kafka/bin/../connect/transforms/build/dependant-libs/snappy-java-1.1.8.1.jar:/failslow/kafka/bin/../connect/transforms/build/dependant-libs/zstd-jni-1.4.9-1.jar:/failslow/kafka/bin/../connect/transforms/build/dependant-libs/log4j-1.2.17.jar:/failslow/kafka/bin/../connect/transforms/build/dependant-libs/slf4j-log4j12-1.7.30.jar:/failslow/kafka/bin/../connect/transforms/build/dependant-libs/lz4-java-1.7.1.jar:/failslow/kafka/bin/../connect/transforms/build/dependant-libs/javax.ws.rs-api-2.1.1.jar:/failslow/kafka/bin/../connect/runtime/build/libs/connect-runtime-2.8.2-sources.jar:/failslow/kafka/bin/../connect/runtime/build/libs/connect-runtime-2.8.2.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jetty-io-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jackson-jaxrs-base-2.10.5.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jetty-util-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jakarta.ws.rs-api-2.1.6.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/aopalliance-repackaged-2.6.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/javax.servlet-api-3.1.0.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jetty-http-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jetty-util-ajax-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jersey-container-servlet-core-2.34.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/slf4j-api-1.7.30.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/commons-lang3-3.8.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jetty-continuation-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jackson-datatype-jdk8-2.10.5.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jetty-server-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jaxb-api-2.3.0.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/snappy-java-1.1.8.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/zstd-jni-1.4.9-1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/maven-artifact-3.8.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jetty-servlets-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/javassist-3.27.0-GA.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jetty-security-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/reflections-0.9.12.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jersey-container-servlet-2.34.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/log4j-1.2.17.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jersey-client-2.34.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jakarta.inject-2.6.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jetty-client-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/activation-1.1.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/plexus-utils-3.2.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jakarta.validation-api-2.0.2.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jackson-core-2.10.5.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jackson-jaxrs-json-provider-2.10.5.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jackson-databind-2.10.5.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jetty-servlet-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/hk2-utils-2.6.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/slf4j-log4j12-1.7.30.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jersey-hk2-2.34.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jakarta.annotation-api-1.3.5.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/argparse4j-0.7.0.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jackson-annotations-2.10.5.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/kafka-log4j-appender-2.8.2.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jakarta.activation-api-1.2.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jackson-module-jaxb-annotations-2.10.5.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/lz4-java-1.7.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/kafka-tools-2.8.2.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/hk2-locator-2.6.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jersey-common-2.34.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/hk2-api-2.6.1.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jersey-server-2.34.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/osgi-resource-locator-1.0.3.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/jakarta.xml.bind-api-2.3.2.jar:/failslow/kafka/bin/../connect/runtime/build/dependant-libs/javax.ws.rs-api-2.1.1.jar:/failslow/kafka/bin/../connect/file/build/libs/connect-file-2.8.2-sources.jar:/failslow/kafka/bin/../connect/file/build/libs/connect-file-2.8.2.jar:/failslow/kafka/bin/../connect/file/build/dependant-libs/slf4j-api-1.7.30.jar:/failslow/kafka/bin/../connect/file/build/dependant-libs/snappy-java-1.1.8.1.jar:/failslow/kafka/bin/../connect/file/build/dependant-libs/zstd-jni-1.4.9-1.jar:/failslow/kafka/bin/../connect/file/build/dependant-libs/log4j-1.2.17.jar:/failslow/kafka/bin/../connect/file/build/dependant-libs/slf4j-log4j12-1.7.30.jar:/failslow/kafka/bin/../connect/file/build/dependant-libs/lz4-java-1.7.1.jar:/failslow/kafka/bin/../connect/file/build/dependant-libs/javax.ws.rs-api-2.1.1.jar:/failslow/kafka/bin/../connect/mirror/build/libs/connect-mirror-2.8.2-sources.jar:/failslow/kafka/bin/../connect/mirror/build/libs/connect-mirror-2.8.2.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jetty-io-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jackson-jaxrs-base-2.10.5.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jetty-util-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jakarta.ws.rs-api-2.1.6.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/aopalliance-repackaged-2.6.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/javax.servlet-api-3.1.0.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jetty-http-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jetty-util-ajax-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jersey-container-servlet-core-2.34.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/slf4j-api-1.7.30.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/commons-lang3-3.8.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jetty-continuation-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jackson-datatype-jdk8-2.10.5.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jetty-server-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jaxb-api-2.3.0.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/snappy-java-1.1.8.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/zstd-jni-1.4.9-1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/maven-artifact-3.8.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jetty-servlets-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/javassist-3.27.0-GA.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jetty-security-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/reflections-0.9.12.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jersey-container-servlet-2.34.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/log4j-1.2.17.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jersey-client-2.34.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jakarta.inject-2.6.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jetty-client-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/activation-1.1.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/plexus-utils-3.2.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jakarta.validation-api-2.0.2.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jackson-core-2.10.5.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jackson-jaxrs-json-provider-2.10.5.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jackson-databind-2.10.5.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jetty-servlet-9.4.48.v20220622.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/hk2-utils-2.6.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/slf4j-log4j12-1.7.30.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jersey-hk2-2.34.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jakarta.annotation-api-1.3.5.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/argparse4j-0.7.0.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jackson-annotations-2.10.5.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/kafka-log4j-appender-2.8.2.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jakarta.activation-api-1.2.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jackson-module-jaxb-annotations-2.10.5.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/lz4-java-1.7.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/kafka-tools-2.8.2.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/hk2-locator-2.6.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jersey-common-2.34.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/hk2-api-2.6.1.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jersey-server-2.34.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/osgi-resource-locator-1.0.3.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/jakarta.xml.bind-api-2.3.2.jar:/failslow/kafka/bin/../connect/mirror/build/dependant-libs/javax.ws.rs-api-2.1.1.jar:/failslow/kafka/bin/../connect/mirror-client/build/libs/connect-mirror-client-2.8.2-sources.jar:/failslow/kafka/bin/../connect/mirror-client/build/libs/connect-mirror-client-2.8.2.jar:/failslow/kafka/bin/../connect/mirror-client/build/dependant-libs/slf4j-api-1.7.30.jar:/failslow/kafka/bin/../connect/mirror-client/build/dependant-libs/snappy-java-1.1.8.1.jar:/failslow/kafka/bin/../connect/mirror-client/build/dependant-libs/zstd-jni-1.4.9-1.jar:/failslow/kafka/bin/../connect/mirror-client/build/dependant-libs/log4j-1.2.17.jar:/failslow/kafka/bin/../connect/mirror-client/build/dependant-libs/slf4j-log4j12-1.7.30.jar:/failslow/kafka/bin/../connect/mirror-client/build/dependant-libs/lz4-java-1.7.1.jar:/failslow/kafka/bin/../connect/json/build/libs/connect-json-2.8.2-sources.jar:/failslow/kafka/bin/../connect/json/build/libs/connect-json-2.8.2.jar:/failslow/kafka/bin/../connect/json/build/dependant-libs/slf4j-api-1.7.30.jar:/failslow/kafka/bin/../connect/json/build/dependant-libs/jackson-datatype-jdk8-2.10.5.jar:/failslow/kafka/bin/../connect/json/build/dependant-libs/snappy-java-1.1.8.1.jar:/failslow/kafka/bin/../connect/json/build/dependant-libs/zstd-jni-1.4.9-1.jar:/failslow/kafka/bin/../connect/json/build/dependant-libs/log4j-1.2.17.jar:/failslow/kafka/bin/../connect/json/build/dependant-libs/jackson-core-2.10.5.jar:/failslow/kafka/bin/../connect/json/build/dependant-libs/jackson-databind-2.10.5.1.jar:/failslow/kafka/bin/../connect/json/build/dependant-libs/slf4j-log4j12-1.7.30.jar:/failslow/kafka/bin/../connect/json/build/dependant-libs/jackson-annotations-2.10.5.jar:/failslow/kafka/bin/../connect/json/build/dependant-libs/lz4-java-1.7.1.jar:/failslow/kafka/bin/../connect/json/build/dependant-libs/javax.ws.rs-api-2.1.1.jar:/failslow/kafka/bin/../connect/basic-auth-extension/build/libs/connect-basic-auth-extension-2.8.2-sources.jar:/failslow/kafka/bin/../connect/basic-auth-extension/build/libs/connect-basic-auth-extension-2.8.2.jar:/failslow/kafka/bin/../connect/basic-auth-extension/build/dependant-libs/slf4j-api-1.7.30.jar:/failslow/kafka/bin/../connect/basic-auth-extension/build/dependant-libs/snappy-java-1.1.8.1.jar:/failslow/kafka/bin/../connect/basic-auth-extension/build/dependant-libs/zstd-jni-1.4.9-1.jar:/failslow/kafka/bin/../connect/basic-auth-extension/build/dependant-libs/log4j-1.2.17.jar:/failslow/kafka/bin/../connect/basic-auth-extension/build/dependant-libs/slf4j-log4j12-1.7.30.jar:/failslow/kafka/bin/../connect/basic-auth-extension/build/dependant-libs/lz4-java-1.7.1.jar:/failslow/kafka/bin/../connect/basic-auth-extension/build/dependant-libs/javax.ws.rs-api-2.1.1.jar:/failslow/kafka/bin/../core/build/libs/kafka_2.13-2.8.2-sources.jar:/failslow/kafka/bin/../core/build/libs/kafka_2.13-2.8.2.jar (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,408] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,408] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,408] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,408] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,408] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,408] INFO Client environment:os.version=5.4.0-152-generic (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,408] INFO Client environment:user.name=root (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,408] INFO Client environment:user.home=/root (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,408] INFO Client environment:user.dir=/failslow (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,408] INFO Client environment:os.memory.free=1010MB (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,408] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,408] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,410] INFO Initiating client connection, connectString=172.30.0.2:2181,172.30.0.3:2181,172.30.0.4:2181 sessionTimeout=18000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@539d019 (org.apache.zookeeper.ZooKeeper)
+[2024-07-13 08:58:10,413] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+[2024-07-13 08:58:10,418] INFO zookeeper.request.timeout value is 0. feature enabled= (org.apache.zookeeper.ClientCnxn)
+[2024-07-13 08:58:10,419] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2024-07-13 08:58:10,429] INFO Opening socket connection to server failslow1.dgnet/172.30.0.2:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-07-13 08:58:10,434] INFO Socket connection established, initiating session, client: /172.30.0.3:47898, server: failslow1.dgnet/172.30.0.2:2181 (org.apache.zookeeper.ClientCnxn)
+[2024-07-13 08:58:10,439] INFO Session establishment complete on server failslow1.dgnet/172.30.0.2:2181, sessionid = 0x1002edadb560002, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2024-07-13 08:58:10,443] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2024-07-13 08:58:10,571] INFO [feature-zk-node-event-process-thread]: Starting (kafka.server.FinalizedFeatureChangeListener$ChangeNotificationProcessorThread)
+[2024-07-13 08:58:10,588] INFO Feature ZK node at path: /feature does not exist (kafka.server.FinalizedFeatureChangeListener)
+[2024-07-13 08:58:10,589] INFO Cleared cache (kafka.server.FinalizedFeatureCache)
+[2024-07-13 08:58:10,760] INFO Cluster ID = oS1LwntGRS6FNGPaRlzHrA (kafka.server.KafkaServer)
+[2024-07-13 08:58:10,763] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2024-07-13 08:58:10,810] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.heartbeat.interval.ms = 2000
+	broker.id = 2
+	broker.id.generation.enable = true
+	broker.rack = null
+	broker.session.timeout.ms = 9000
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.listener.names = null
+	controller.quorum.append.linger.ms = 25
+	controller.quorum.election.backoff.max.ms = 1000
+	controller.quorum.election.timeout.ms = 1000
+	controller.quorum.fetch.timeout.ms = 2000
+	controller.quorum.request.timeout.ms = 2000
+	controller.quorum.retry.backoff.ms = 20
+	controller.quorum.voters = []
+	controller.quota.window.num = 11
+	controller.quota.window.size.seconds = 1
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 2
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delegation.token.secret.key = null
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	initial.broker.registration.timeout.ms = 60000
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.8-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.8-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connection.creation.rate = 2147483647
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metadata.log.dir = null
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	node.id = -1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	process.roles = []
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 5242880
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.controller.protocol = GSSAPI
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	sasl.server.max.receive.size = 524288
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = 172.30.0.2:2181,172.30.0.3:2181,172.30.0.4:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2024-07-13 08:58:10,819] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.heartbeat.interval.ms = 2000
+	broker.id = 2
+	broker.id.generation.enable = true
+	broker.rack = null
+	broker.session.timeout.ms = 9000
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.listener.names = null
+	controller.quorum.append.linger.ms = 25
+	controller.quorum.election.backoff.max.ms = 1000
+	controller.quorum.election.timeout.ms = 1000
+	controller.quorum.fetch.timeout.ms = 2000
+	controller.quorum.request.timeout.ms = 2000
+	controller.quorum.retry.backoff.ms = 20
+	controller.quorum.voters = []
+	controller.quota.window.num = 11
+	controller.quota.window.size.seconds = 1
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 2
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delegation.token.secret.key = null
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	initial.broker.registration.timeout.ms = 60000
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.8-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.8-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connection.creation.rate = 2147483647
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metadata.log.dir = null
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	node.id = -1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	process.roles = []
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 5242880
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.controller.protocol = GSSAPI
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	sasl.server.max.receive.size = 524288
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = 172.30.0.2:2181,172.30.0.3:2181,172.30.0.4:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2024-07-13 08:58:10,860] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-07-13 08:58:10,861] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-07-13 08:58:10,862] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-07-13 08:58:10,864] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-07-13 08:58:10,879] INFO Log directory /tmp/kafka-logs not found, creating it. (kafka.log.LogManager)
+[2024-07-13 08:58:10,907] INFO Loading logs from log dirs ArraySeq(/tmp/kafka-logs) (kafka.log.LogManager)
+[2024-07-13 08:58:10,910] INFO Attempting recovery for all logs in /tmp/kafka-logs since no clean shutdown file was found (kafka.log.LogManager)
+[2024-07-13 08:58:10,930] INFO Loaded 0 logs in 23ms. (kafka.log.LogManager)
+[2024-07-13 08:58:10,930] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2024-07-13 08:58:10,932] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2024-07-13 08:58:11,315] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+[2024-07-13 08:58:11,318] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2024-07-13 08:58:11,351] INFO [SocketServer listenerType=ZK_BROKER, nodeId=2] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2024-07-13 08:58:11,379] INFO [broker-2-to-controller-send-thread]: Starting (kafka.server.BrokerToControllerRequestThread)
+[2024-07-13 08:58:11,402] INFO [ExpirationReaper-2-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-07-13 08:58:11,403] INFO [ExpirationReaper-2-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-07-13 08:58:11,404] INFO [ExpirationReaper-2-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-07-13 08:58:11,404] INFO [ExpirationReaper-2-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-07-13 08:58:11,421] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2024-07-13 08:58:11,463] INFO Creating /brokers/ids/2 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2024-07-13 08:58:11,485] INFO Stat of the created znode at /brokers/ids/2 is: 4294967367,4294967367,1720861091478,1720861091478,1,0,0,72109111555522562,208,0,4294967367
+ (kafka.zk.KafkaZkClient)
+[2024-07-13 08:58:11,486] INFO Registered broker 2 at path /brokers/ids/2 with addresses: PLAINTEXT://35b030a92239:9092, czxid (broker epoch): 4294967367 (kafka.zk.KafkaZkClient)
+[2024-07-13 08:58:11,492] INFO Feature ZK node created at path: /feature (kafka.server.FinalizedFeatureChangeListener)
+[2024-07-13 08:58:11,508] INFO Updated cache from existing <empty> to latest FinalizedFeaturesAndEpoch(features=Features{}, epoch=0). (kafka.server.FinalizedFeatureCache)
+[2024-07-13 08:58:11,549] INFO [ExpirationReaper-2-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-07-13 08:58:11,554] INFO [ExpirationReaper-2-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-07-13 08:58:11,554] INFO [ExpirationReaper-2-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-07-13 08:58:11,569] INFO [GroupCoordinator 2]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:11,573] INFO [GroupCoordinator 2]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:11,597] INFO [ProducerId Manager 2]: Acquired new producerId block (brokerId:2,blockStartProducerId:2000,blockEndProducerId:2999) by writing to Zk with path version 3 (kafka.coordinator.transaction.ProducerIdManager)
+[2024-07-13 08:58:11,597] INFO [TransactionCoordinator id=2] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2024-07-13 08:58:11,600] INFO [TransactionCoordinator id=2] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2024-07-13 08:58:11,601] INFO [Transaction Marker Channel Manager 2]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2024-07-13 08:58:11,631] INFO [ExpirationReaper-2-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-07-13 08:58:11,649] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2024-07-13 08:58:11,659] INFO [SocketServer listenerType=ZK_BROKER, nodeId=2] Starting socket server acceptors and processors (kafka.network.SocketServer)
+[2024-07-13 08:58:11,670] INFO [SocketServer listenerType=ZK_BROKER, nodeId=2] Started data-plane acceptor and processor(s) for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2024-07-13 08:58:11,671] INFO [SocketServer listenerType=ZK_BROKER, nodeId=2] Started socket server acceptors and processors (kafka.network.SocketServer)
+[2024-07-13 08:58:11,678] INFO Kafka version: 2.8.2 (org.apache.kafka.common.utils.AppInfoParser)
+[2024-07-13 08:58:11,688] INFO Kafka commitId: 3146c6ff4a24cc24 (org.apache.kafka.common.utils.AppInfoParser)
+[2024-07-13 08:58:11,688] INFO Kafka startTimeMs: 1720861091671 (org.apache.kafka.common.utils.AppInfoParser)
+[2024-07-13 08:58:11,690] INFO [KafkaServer id=2] started (kafka.server.KafkaServer)
+[2024-07-13 08:58:11,925] INFO [broker-2-to-controller-send-thread]: Recorded new controller, from now on will use broker 0b0b608d33af:9092 (id: 3 rack: null) (kafka.server.BrokerToControllerRequestThread)
+[2024-07-13 08:58:21,828] INFO [Log partition=test-1-0-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:21,833] INFO Created log for partition test-1-0-1 in /tmp/kafka-logs/test-1-0-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:21,837] INFO [Partition test-1-0-1 broker=2] No checkpointed highwatermark is found for partition test-1-0-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:21,837] INFO [Partition test-1-0-1 broker=2] Log loaded for partition test-1-0-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:21,839] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-0-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:21,860] INFO [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:21,863] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 1 for partitions Map(test-1-0-1 -> InitialFetchState(BrokerEndPoint(id=1, host=e4164e6548dd:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:21,868] INFO [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Truncating partition test-1-0-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:21,871] INFO [Log partition=test-1-0-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:22,068] WARN [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Received UNKNOWN_TOPIC_OR_PARTITION from the leader for partition test-1-0-1. This error may be returned transiently when the partition is being created or deleted, but it is not expected to persist. (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:22,367] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(test-1-1-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:22,388] INFO [Log partition=test-1-1-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:22,389] INFO Created log for partition test-1-1-1 in /tmp/kafka-logs/test-1-1-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:22,394] INFO [Partition test-1-1-1 broker=2] No checkpointed highwatermark is found for partition test-1-1-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:22,394] INFO [Partition test-1-1-1 broker=2] Log loaded for partition test-1-1-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:22,940] INFO [Log partition=test-1-2-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:22,943] INFO Created log for partition test-1-2-1 in /tmp/kafka-logs/test-1-2-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:22,949] INFO [Partition test-1-2-1 broker=2] No checkpointed highwatermark is found for partition test-1-2-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:22,950] INFO [Partition test-1-2-1 broker=2] Log loaded for partition test-1-2-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:22,951] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-2-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:22,953] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 1 for partitions Map(test-1-2-1 -> InitialFetchState(BrokerEndPoint(id=1, host=e4164e6548dd:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:22,953] INFO [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Truncating partition test-1-2-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:22,953] INFO [Log partition=test-1-2-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:23,061] WARN [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Received UNKNOWN_TOPIC_OR_PARTITION from the leader for partition test-1-2-1. This error may be returned transiently when the partition is being created or deleted, but it is not expected to persist. (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:23,401] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(test-1-3-0) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:23,418] INFO [Log partition=test-1-3-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:23,419] INFO Created log for partition test-1-3-0 in /tmp/kafka-logs/test-1-3-0 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:23,424] INFO [Partition test-1-3-0 broker=2] No checkpointed highwatermark is found for partition test-1-3-0 (kafka.cluster.Partition)
+[2024-07-13 08:58:23,424] INFO [Partition test-1-3-0 broker=2] Log loaded for partition test-1-3-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:23,918] INFO [Log partition=test-1-4-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:23,918] INFO Created log for partition test-1-4-1 in /tmp/kafka-logs/test-1-4-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:23,921] INFO [Partition test-1-4-1 broker=2] No checkpointed highwatermark is found for partition test-1-4-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:23,921] INFO [Partition test-1-4-1 broker=2] Log loaded for partition test-1-4-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:23,921] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-4-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:23,922] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 1 for partitions Map(test-1-4-1 -> InitialFetchState(BrokerEndPoint(id=1, host=e4164e6548dd:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:24,340] INFO [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Truncating partition test-1-4-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:24,341] INFO [Log partition=test-1-4-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:24,388] INFO [Log partition=test-1-5-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:24,389] INFO Created log for partition test-1-5-1 in /tmp/kafka-logs/test-1-5-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:24,392] INFO [Partition test-1-5-1 broker=2] No checkpointed highwatermark is found for partition test-1-5-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:24,392] INFO [Partition test-1-5-1 broker=2] Log loaded for partition test-1-5-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:24,392] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-5-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:24,393] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 1 for partitions Map(test-1-5-1 -> InitialFetchState(BrokerEndPoint(id=1, host=e4164e6548dd:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:24,829] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(test-1-6-0) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:24,842] INFO [Log partition=test-1-6-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:24,843] INFO Created log for partition test-1-6-0 in /tmp/kafka-logs/test-1-6-0 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:24,845] INFO [Partition test-1-6-0 broker=2] No checkpointed highwatermark is found for partition test-1-6-0 (kafka.cluster.Partition)
+[2024-07-13 08:58:24,845] INFO [Partition test-1-6-0 broker=2] Log loaded for partition test-1-6-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:24,859] INFO [Log partition=test-1-6-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:24,859] INFO Created log for partition test-1-6-1 in /tmp/kafka-logs/test-1-6-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:24,859] INFO [Partition test-1-6-1 broker=2] No checkpointed highwatermark is found for partition test-1-6-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:24,859] INFO [Partition test-1-6-1 broker=2] Log loaded for partition test-1-6-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:24,860] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-6-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:24,863] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 3 for partitions Map(test-1-6-1 -> InitialFetchState(BrokerEndPoint(id=3, host=0b0b608d33af:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:24,864] INFO [ReplicaFetcher replicaId=2, leaderId=3, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:24,864] INFO [ReplicaFetcher replicaId=2, leaderId=3, fetcherId=0] Truncating partition test-1-6-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:24,864] INFO [Log partition=test-1-6-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:24,984] INFO [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Truncating partition test-1-5-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:24,984] INFO [Log partition=test-1-5-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:25,288] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(test-1-7-0) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:25,304] INFO [Log partition=test-1-7-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:25,304] INFO Created log for partition test-1-7-0 in /tmp/kafka-logs/test-1-7-0 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:25,307] INFO [Partition test-1-7-0 broker=2] No checkpointed highwatermark is found for partition test-1-7-0 (kafka.cluster.Partition)
+[2024-07-13 08:58:25,307] INFO [Partition test-1-7-0 broker=2] Log loaded for partition test-1-7-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:25,759] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(test-1-8-0) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:25,778] INFO [Log partition=test-1-8-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:25,779] INFO Created log for partition test-1-8-0 in /tmp/kafka-logs/test-1-8-0 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:25,782] INFO [Partition test-1-8-0 broker=2] No checkpointed highwatermark is found for partition test-1-8-0 (kafka.cluster.Partition)
+[2024-07-13 08:58:25,782] INFO [Partition test-1-8-0 broker=2] Log loaded for partition test-1-8-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:25,794] INFO [Log partition=test-1-8-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:25,795] INFO Created log for partition test-1-8-1 in /tmp/kafka-logs/test-1-8-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:25,795] INFO [Partition test-1-8-1 broker=2] No checkpointed highwatermark is found for partition test-1-8-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:25,795] INFO [Partition test-1-8-1 broker=2] Log loaded for partition test-1-8-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:25,795] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-8-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:25,796] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 3 for partitions Map(test-1-8-1 -> InitialFetchState(BrokerEndPoint(id=3, host=0b0b608d33af:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:26,118] INFO [ReplicaFetcher replicaId=2, leaderId=3, fetcherId=0] Truncating partition test-1-8-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:26,118] INFO [Log partition=test-1-8-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:26,412] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(__consumer_offsets-8, __consumer_offsets-35, __consumer_offsets-47, __consumer_offsets-38, __consumer_offsets-17, __consumer_offsets-11, __consumer_offsets-29, __consumer_offsets-32, __consumer_offsets-41, __consumer_offsets-23, __consumer_offsets-2, __consumer_offsets-14, __consumer_offsets-20, __consumer_offsets-44, __consumer_offsets-5, __consumer_offsets-26) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:26,429] INFO [Log partition=__consumer_offsets-35, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,430] INFO Created log for partition __consumer_offsets-35 in /tmp/kafka-logs/__consumer_offsets-35 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,433] INFO [Partition __consumer_offsets-35 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-35 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,433] INFO [Partition __consumer_offsets-35 broker=2] Log loaded for partition __consumer_offsets-35 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,445] INFO [Log partition=__consumer_offsets-5, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,446] INFO Created log for partition __consumer_offsets-5 in /tmp/kafka-logs/__consumer_offsets-5 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,446] INFO [Partition __consumer_offsets-5 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-5 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,446] INFO [Partition __consumer_offsets-5 broker=2] Log loaded for partition __consumer_offsets-5 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,459] INFO [Log partition=__consumer_offsets-20, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,459] INFO Created log for partition __consumer_offsets-20 in /tmp/kafka-logs/__consumer_offsets-20 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,459] INFO [Partition __consumer_offsets-20 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-20 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,459] INFO [Partition __consumer_offsets-20 broker=2] Log loaded for partition __consumer_offsets-20 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,473] INFO [Log partition=__consumer_offsets-41, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,473] INFO Created log for partition __consumer_offsets-41 in /tmp/kafka-logs/__consumer_offsets-41 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,473] INFO [Partition __consumer_offsets-41 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-41 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,473] INFO [Partition __consumer_offsets-41 broker=2] Log loaded for partition __consumer_offsets-41 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,486] INFO [Log partition=__consumer_offsets-29, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,486] INFO Created log for partition __consumer_offsets-29 in /tmp/kafka-logs/__consumer_offsets-29 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,486] INFO [Partition __consumer_offsets-29 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-29 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,486] INFO [Partition __consumer_offsets-29 broker=2] Log loaded for partition __consumer_offsets-29 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,498] INFO [Log partition=__consumer_offsets-44, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,499] INFO Created log for partition __consumer_offsets-44 in /tmp/kafka-logs/__consumer_offsets-44 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,499] INFO [Partition __consumer_offsets-44 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-44 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,499] INFO [Partition __consumer_offsets-44 broker=2] Log loaded for partition __consumer_offsets-44 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,509] INFO [Log partition=__consumer_offsets-14, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,510] INFO Created log for partition __consumer_offsets-14 in /tmp/kafka-logs/__consumer_offsets-14 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,510] INFO [Partition __consumer_offsets-14 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-14 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,510] INFO [Partition __consumer_offsets-14 broker=2] Log loaded for partition __consumer_offsets-14 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,527] INFO [Log partition=__consumer_offsets-2, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,528] INFO Created log for partition __consumer_offsets-2 in /tmp/kafka-logs/__consumer_offsets-2 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,528] INFO [Partition __consumer_offsets-2 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-2 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,528] INFO [Partition __consumer_offsets-2 broker=2] Log loaded for partition __consumer_offsets-2 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,542] INFO [Log partition=__consumer_offsets-23, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,542] INFO Created log for partition __consumer_offsets-23 in /tmp/kafka-logs/__consumer_offsets-23 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,542] INFO [Partition __consumer_offsets-23 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-23 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,542] INFO [Partition __consumer_offsets-23 broker=2] Log loaded for partition __consumer_offsets-23 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,554] INFO [Log partition=__consumer_offsets-38, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,555] INFO Created log for partition __consumer_offsets-38 in /tmp/kafka-logs/__consumer_offsets-38 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,555] INFO [Partition __consumer_offsets-38 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-38 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,555] INFO [Partition __consumer_offsets-38 broker=2] Log loaded for partition __consumer_offsets-38 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,566] INFO [Log partition=__consumer_offsets-8, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,567] INFO Created log for partition __consumer_offsets-8 in /tmp/kafka-logs/__consumer_offsets-8 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,567] INFO [Partition __consumer_offsets-8 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-8 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,567] INFO [Partition __consumer_offsets-8 broker=2] Log loaded for partition __consumer_offsets-8 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,578] INFO [Log partition=__consumer_offsets-11, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,578] INFO Created log for partition __consumer_offsets-11 in /tmp/kafka-logs/__consumer_offsets-11 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,578] INFO [Partition __consumer_offsets-11 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-11 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,578] INFO [Partition __consumer_offsets-11 broker=2] Log loaded for partition __consumer_offsets-11 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,590] INFO [Log partition=__consumer_offsets-26, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,590] INFO Created log for partition __consumer_offsets-26 in /tmp/kafka-logs/__consumer_offsets-26 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,590] INFO [Partition __consumer_offsets-26 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-26 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,590] INFO [Partition __consumer_offsets-26 broker=2] Log loaded for partition __consumer_offsets-26 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,603] INFO [Log partition=__consumer_offsets-47, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,603] INFO Created log for partition __consumer_offsets-47 in /tmp/kafka-logs/__consumer_offsets-47 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,603] INFO [Partition __consumer_offsets-47 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-47 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,603] INFO [Partition __consumer_offsets-47 broker=2] Log loaded for partition __consumer_offsets-47 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,615] INFO [Log partition=__consumer_offsets-17, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,616] INFO Created log for partition __consumer_offsets-17 in /tmp/kafka-logs/__consumer_offsets-17 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,616] INFO [Partition __consumer_offsets-17 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-17 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,616] INFO [Partition __consumer_offsets-17 broker=2] Log loaded for partition __consumer_offsets-17 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,633] INFO [Log partition=__consumer_offsets-32, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:26,634] INFO Created log for partition __consumer_offsets-32 in /tmp/kafka-logs/__consumer_offsets-32 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+[2024-07-13 08:58:26,634] INFO [Partition __consumer_offsets-32 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-32 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,634] INFO [Partition __consumer_offsets-32 broker=2] Log loaded for partition __consumer_offsets-32 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:26,637] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 35 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,638] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-35 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,639] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 5 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,639] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-5 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,639] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 20 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,639] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-20 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,639] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 41 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,639] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-41 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,639] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 29 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,639] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-29 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,639] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 44 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,639] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-44 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,639] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 14 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,639] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-14 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,639] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 2 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,639] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-2 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,639] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 23 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,639] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-23 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,639] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 38 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,639] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-38 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,639] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 8 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,639] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-8 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,639] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 11 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,639] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-11 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,639] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 26 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,639] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-26 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,640] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 47 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,640] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-47 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,640] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 17 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,640] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-17 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,640] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 32 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+[2024-07-13 08:58:26,640] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-32 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,646] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-35 in 7 milliseconds for epoch 0, of which 2 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,646] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-5 in 7 milliseconds for epoch 0, of which 7 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,646] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-20 in 7 milliseconds for epoch 0, of which 7 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,647] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-41 in 8 milliseconds for epoch 0, of which 8 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,647] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-29 in 8 milliseconds for epoch 0, of which 8 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,647] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-44 in 8 milliseconds for epoch 0, of which 8 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,647] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-14 in 8 milliseconds for epoch 0, of which 8 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,647] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-2 in 8 milliseconds for epoch 0, of which 8 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,647] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-23 in 8 milliseconds for epoch 0, of which 8 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,648] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-38 in 9 milliseconds for epoch 0, of which 8 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,648] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-8 in 9 milliseconds for epoch 0, of which 9 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,648] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-11 in 9 milliseconds for epoch 0, of which 9 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,648] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-26 in 9 milliseconds for epoch 0, of which 9 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,648] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-47 in 8 milliseconds for epoch 0, of which 8 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,648] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-17 in 8 milliseconds for epoch 0, of which 8 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:26,649] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-32 in 9 milliseconds for epoch 0, of which 9 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+[2024-07-13 08:58:27,302] INFO [Log partition=test-1-9-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:27,302] INFO Created log for partition test-1-9-1 in /tmp/kafka-logs/test-1-9-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:27,325] INFO [Partition test-1-9-1 broker=2] No checkpointed highwatermark is found for partition test-1-9-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:27,325] INFO [Partition test-1-9-1 broker=2] Log loaded for partition test-1-9-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:27,326] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-9-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:27,326] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 1 for partitions Map(test-1-9-1 -> InitialFetchState(BrokerEndPoint(id=1, host=e4164e6548dd:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:27,791] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(test-1-10-0) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:27,807] INFO [Log partition=test-1-10-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:27,808] INFO Created log for partition test-1-10-0 in /tmp/kafka-logs/test-1-10-0 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:27,824] INFO [Partition test-1-10-0 broker=2] No checkpointed highwatermark is found for partition test-1-10-0 (kafka.cluster.Partition)
+[2024-07-13 08:58:27,824] INFO [Partition test-1-10-0 broker=2] Log loaded for partition test-1-10-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:27,840] INFO [Log partition=test-1-10-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:27,840] INFO Created log for partition test-1-10-1 in /tmp/kafka-logs/test-1-10-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:27,840] INFO [Partition test-1-10-1 broker=2] No checkpointed highwatermark is found for partition test-1-10-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:27,840] INFO [Partition test-1-10-1 broker=2] Log loaded for partition test-1-10-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:27,841] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-10-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:27,841] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 3 for partitions Map(test-1-10-1 -> InitialFetchState(BrokerEndPoint(id=3, host=0b0b608d33af:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:27,906] INFO [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Truncating partition test-1-9-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:27,907] INFO [Log partition=test-1-9-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:27,960] INFO [ReplicaFetcher replicaId=2, leaderId=3, fetcherId=0] Truncating partition test-1-10-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:27,960] INFO [Log partition=test-1-10-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:28,274] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(test-1-11-0) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:28,286] INFO [Log partition=test-1-11-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:28,287] INFO Created log for partition test-1-11-0 in /tmp/kafka-logs/test-1-11-0 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:28,300] INFO [Partition test-1-11-0 broker=2] No checkpointed highwatermark is found for partition test-1-11-0 (kafka.cluster.Partition)
+[2024-07-13 08:58:28,300] INFO [Partition test-1-11-0 broker=2] Log loaded for partition test-1-11-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:28,312] INFO [Log partition=test-1-11-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:28,313] INFO Created log for partition test-1-11-1 in /tmp/kafka-logs/test-1-11-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:28,313] INFO [Partition test-1-11-1 broker=2] No checkpointed highwatermark is found for partition test-1-11-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:28,313] INFO [Partition test-1-11-1 broker=2] Log loaded for partition test-1-11-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:28,313] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-11-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:28,313] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 3 for partitions Map(test-1-11-1 -> InitialFetchState(BrokerEndPoint(id=3, host=0b0b608d33af:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:28,569] INFO [ReplicaFetcher replicaId=2, leaderId=3, fetcherId=0] Truncating partition test-1-11-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:28,570] INFO [Log partition=test-1-11-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:28,766] INFO [Log partition=test-1-12-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:28,767] INFO Created log for partition test-1-12-0 in /tmp/kafka-logs/test-1-12-0 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:28,787] INFO [Partition test-1-12-0 broker=2] No checkpointed highwatermark is found for partition test-1-12-0 (kafka.cluster.Partition)
+[2024-07-13 08:58:28,787] INFO [Partition test-1-12-0 broker=2] Log loaded for partition test-1-12-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:28,787] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-12-0) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:28,788] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 3 for partitions Map(test-1-12-0 -> InitialFetchState(BrokerEndPoint(id=3, host=0b0b608d33af:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:29,180] INFO [ReplicaFetcher replicaId=2, leaderId=3, fetcherId=0] Truncating partition test-1-12-0 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:29,180] INFO [Log partition=test-1-12-0, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:29,248] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(test-1-13-0) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:29,263] INFO [Log partition=test-1-13-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:29,263] INFO Created log for partition test-1-13-0 in /tmp/kafka-logs/test-1-13-0 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:29,274] INFO [Partition test-1-13-0 broker=2] No checkpointed highwatermark is found for partition test-1-13-0 (kafka.cluster.Partition)
+[2024-07-13 08:58:29,274] INFO [Partition test-1-13-0 broker=2] Log loaded for partition test-1-13-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:29,724] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(test-1-14-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:29,736] INFO [Log partition=test-1-14-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:29,736] INFO Created log for partition test-1-14-1 in /tmp/kafka-logs/test-1-14-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:29,748] INFO [Partition test-1-14-1 broker=2] No checkpointed highwatermark is found for partition test-1-14-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:29,749] INFO [Partition test-1-14-1 broker=2] Log loaded for partition test-1-14-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:29,759] INFO [Log partition=test-1-14-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:29,759] INFO Created log for partition test-1-14-0 in /tmp/kafka-logs/test-1-14-0 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:29,759] INFO [Partition test-1-14-0 broker=2] No checkpointed highwatermark is found for partition test-1-14-0 (kafka.cluster.Partition)
+[2024-07-13 08:58:29,759] INFO [Partition test-1-14-0 broker=2] Log loaded for partition test-1-14-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:29,759] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-14-0) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:29,760] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 1 for partitions Map(test-1-14-0 -> InitialFetchState(BrokerEndPoint(id=1, host=e4164e6548dd:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:30,234] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(test-1-15-0) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:30,248] INFO [Log partition=test-1-15-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:30,249] INFO Created log for partition test-1-15-0 in /tmp/kafka-logs/test-1-15-0 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:30,266] INFO [Partition test-1-15-0 broker=2] No checkpointed highwatermark is found for partition test-1-15-0 (kafka.cluster.Partition)
+[2024-07-13 08:58:30,267] INFO [Partition test-1-15-0 broker=2] Log loaded for partition test-1-15-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:30,279] INFO [Log partition=test-1-15-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:30,279] INFO Created log for partition test-1-15-1 in /tmp/kafka-logs/test-1-15-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:30,279] INFO [Partition test-1-15-1 broker=2] No checkpointed highwatermark is found for partition test-1-15-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:30,279] INFO [Partition test-1-15-1 broker=2] Log loaded for partition test-1-15-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:30,279] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-15-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:30,280] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 3 for partitions Map(test-1-15-1 -> InitialFetchState(BrokerEndPoint(id=3, host=0b0b608d33af:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:30,295] INFO [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Truncating partition test-1-14-0 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:30,296] INFO [Log partition=test-1-14-0, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:30,372] INFO [ReplicaFetcher replicaId=2, leaderId=3, fetcherId=0] Truncating partition test-1-15-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:30,372] INFO [Log partition=test-1-15-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:30,649] INFO [Log partition=test-1-16-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:30,649] INFO Created log for partition test-1-16-1 in /tmp/kafka-logs/test-1-16-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:30,662] INFO [Partition test-1-16-1 broker=2] No checkpointed highwatermark is found for partition test-1-16-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:30,662] INFO [Partition test-1-16-1 broker=2] Log loaded for partition test-1-16-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:30,663] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-16-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:30,663] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 1 for partitions Map(test-1-16-1 -> InitialFetchState(BrokerEndPoint(id=1, host=e4164e6548dd:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:30,899] INFO [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Truncating partition test-1-16-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:30,899] INFO [Log partition=test-1-16-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:31,039] INFO [Log partition=test-1-17-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:31,040] INFO Created log for partition test-1-17-1 in /tmp/kafka-logs/test-1-17-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:31,053] INFO [Partition test-1-17-1 broker=2] No checkpointed highwatermark is found for partition test-1-17-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:31,053] INFO [Partition test-1-17-1 broker=2] Log loaded for partition test-1-17-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:31,053] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-17-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:31,054] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 1 for partitions Map(test-1-17-1 -> InitialFetchState(BrokerEndPoint(id=1, host=e4164e6548dd:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:31,439] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(test-1-18-0) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:31,453] INFO [Log partition=test-1-18-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:31,453] INFO Created log for partition test-1-18-0 in /tmp/kafka-logs/test-1-18-0 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:31,469] INFO [Partition test-1-18-0 broker=2] No checkpointed highwatermark is found for partition test-1-18-0 (kafka.cluster.Partition)
+[2024-07-13 08:58:31,469] INFO [Partition test-1-18-0 broker=2] Log loaded for partition test-1-18-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:31,511] INFO [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Truncating partition test-1-17-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:31,511] INFO [Log partition=test-1-17-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2024-07-13 08:58:31,913] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(test-1-19-0) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:31,930] INFO [Log partition=test-1-19-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:31,931] INFO Created log for partition test-1-19-0 in /tmp/kafka-logs/test-1-19-0 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:31,946] INFO [Partition test-1-19-0 broker=2] No checkpointed highwatermark is found for partition test-1-19-0 (kafka.cluster.Partition)
+[2024-07-13 08:58:31,946] INFO [Partition test-1-19-0 broker=2] Log loaded for partition test-1-19-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:31,956] INFO [Log partition=test-1-19-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-07-13 08:58:31,957] INFO Created log for partition test-1-19-1 in /tmp/kafka-logs/test-1-19-1 with properties {} (kafka.log.LogManager)
+[2024-07-13 08:58:31,957] INFO [Partition test-1-19-1 broker=2] No checkpointed highwatermark is found for partition test-1-19-1 (kafka.cluster.Partition)
+[2024-07-13 08:58:31,957] INFO [Partition test-1-19-1 broker=2] Log loaded for partition test-1-19-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-07-13 08:58:31,957] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(test-1-19-1) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:31,957] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 3 for partitions Map(test-1-19-1 -> InitialFetchState(BrokerEndPoint(id=3, host=0b0b608d33af:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+[2024-07-13 08:58:32,210] INFO [ReplicaFetcher replicaId=2, leaderId=3, fetcherId=0] Truncating partition test-1-19-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2024-07-13 08:58:32,210] INFO [Log partition=test-1-19-1, dir=/tmp/kafka-logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)

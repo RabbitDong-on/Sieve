@@ -1,0 +1,19 @@
+# Reproduce HDFS-5032|9178
+## Build the cluster
+- HDFS version : 2.1.0-beta
+- Build the cluster as the guideline in HDFS.
+## Step2:Replace SchedulerServiceImpl in Sieve server
+```
+# In Sieve server
+rm -rf /src/main/java/scheduler/SchedulerServiceImpl.java
+cp SchedulerServiceImpl.java /src/main/java/scheduler/
+```
+## Step3:Run test
+```
+# In Sieve server (failslow4)
+./startEngine.sh hdfs 1
+# In failslow1,2,3
+./workloadDriver_hdfs.sh 1 1|2|3
+```
+## Fault point
+FileIoProvider{write}
