@@ -89,3 +89,8 @@ In failslow1,2,3, run the script to add minimized workloads in dir /apache-zooke
 You will get the following result in failslow3.
 
 ![result](./ZK-4.png)
+
+## References
+```
+Gen Dong, Yu Hua, Yongle Zhang, Zhangyu Chen, Menglei Chen, "Understanding and Detecting Fail-Slow Hardware Failure Bugs in Cloud Systems", Proceedings of the USENIX Annual Technical Conference (USENIX ATC), 2025.
+```
