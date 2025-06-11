@@ -1,0 +1,378 @@
+ZooKeeper Transactional Log File with dbid 0 txnlog format version 2
+2024-07-01 07:58:54,477 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+2024-07-01 07:58:54,479 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -   ______                  _                                          
+2024-07-01 07:58:54,479 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -  |___  /                 | |                                         
+2024-07-01 07:58:54,479 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2024-07-01 07:58:54,480 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2024-07-01 07:58:54,480 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2024-07-01 07:58:54,480 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2024-07-01 07:58:54,480 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               | |                     
+2024-07-01 07:58:54,480 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               |_|                     
+2024-07-01 07:58:54,480 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+2024-07-01 07:58:54,482 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:zookeeper.version=3.10.0-SNAPSHOT-317eb2cb1cb10b80a2c2f8bc3cc1cc74493a0106-dirty, built on 2024-07-01 02:08 UTC
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:host.name=0b0b608d33af
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.version=1.8.0_362
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.vendor=Private Build
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.class.path=/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/classes:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../zookeeper-server/target/classes:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../build/classes:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/lib/*.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../zookeeper-server/target/lib/*.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../build/lib/*.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/zookeeper-prometheus-metrics-3.10.0-SNAPSHOT.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/zookeeper-jute-3.10.0-SNAPSHOT.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/zookeeper-3.10.0-SNAPSHOT.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/snappy-java-1.1.10.5.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/slf4j-api-1.7.30.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/simpleclient_servlet-0.9.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/simpleclient_hotspot-0.9.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/simpleclient_common-0.9.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/simpleclient-0.9.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-transport-native-unix-common-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-transport-native-epoll-4.1.94.Final-linux-x86_64.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-transport-classes-epoll-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-transport-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-classes-2.0.61.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.61.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-resolver-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-handler-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-common-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-codec-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-buffer-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/metrics-core-4.1.12.1.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/logback-core-1.2.10.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/logback-classic-1.2.10.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jline-2.14.6.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-util-ajax-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-util-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-servlet-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-server-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-security-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-io-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-http-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/javax.servlet-api-3.1.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jackson-databind-2.15.2.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jackson-core-2.15.2.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jackson-annotations-2.15.2.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/commons-io-2.11.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/commons-cli-1.5.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/audience-annotations-0.12.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../zookeeper-*.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../zookeeper-server/src/main/resources/lib/*.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../conf:
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.io.tmpdir=/tmp
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.compiler=<NA>
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.name=Linux
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.arch=amd64
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.version=5.4.0-84-generic
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:user.name=root
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:user.home=/root
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:user.dir=/apache-zookeeper-3.10.0-SNAPSHOT-bin
+2024-07-01 07:58:54,483 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.free=1919MB
+2024-07-01 07:58:54,484 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.max=27305MB
+2024-07-01 07:58:54,484 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.total=1963MB
+2024-07-01 07:58:54,484 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@149] - zookeeper.enableEagerACLCheck = false
+2024-07-01 07:58:54,485 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@162] - zookeeper.digest.enabled = true
+2024-07-01 07:58:54,485 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@166] - zookeeper.closeSessionTxn.enabled = true
+2024-07-01 07:58:54,485 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@2251] - zookeeper.serializeLastProcessedZxid.enabled = true
+2024-07-01 07:58:54,485 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1594] - zookeeper.flushDelay = 0 ms
+2024-07-01 07:58:54,485 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1603] - zookeeper.maxWriteQueuePollTime = 0 ms
+2024-07-01 07:58:54,485 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1612] - zookeeper.maxBatchSize=1000
+2024-07-01 07:58:54,485 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@287] - zookeeper.intBufferStartingSizeBytes = 1024
+7/1/24 7:58:30 AM GMT session 0x2004307128b0000 cxid 0x0 zxid 0x100000001 createSession 15000
+7/1/24 7:58:30 AM GMT session 0x2004307128b0000 cxid 0x1 zxid 0x100000002 create /11,0,[31,s{'world,'anyone}
+],false,1
+7/1/24 7:58:30 AM GMT session 0x2004307128b0000 cxid 0x2 zxid 0x100000003 setACL '/11,v{s{29,s{'world,'anyone}}},1
+7/1/24 7:58:30 AM GMT session 0x2004307128b0000 cxid 0x5 zxid 0x100000004 create /12,0,[31,s{'world,'anyone}
+],false,2
+7/1/24 7:58:30 AM GMT session 0x2004307128b0000 cxid 0x6 zxid 0x100000005 setACL '/12,v{s{29,s{'world,'anyone}}},1
+7/1/24 7:58:31 AM GMT session 0x2004307128b0000 cxid 0x9 zxid 0x100000006 create /13,0,[31,s{'world,'anyone}
+],false,3
+7/1/24 7:58:31 AM GMT session 0x2004307128b0000 cxid 0xa zxid 0x100000007 setACL '/13,v{s{30,s{'world,'anyone}}},1
+7/1/24 7:58:31 AM GMT session 0x300430715c50000 cxid 0x0 zxid 0x100000008 createSession 15000
+7/1/24 7:58:31 AM GMT session 0x2004307128b0000 cxid 0xd zxid 0x100000009 create /14,0,[31,s{'world,'anyone}
+],false,4
+7/1/24 7:58:31 AM GMT session 0x2004307128b0000 cxid 0xe zxid 0x10000000a setACL '/14,v{s{27,s{'world,'anyone}}},1
+7/1/24 7:58:31 AM GMT session 0x300430715c50000 cxid 0x1 zxid 0x10000000b create /21,0,[31,s{'world,'anyone}
+],false,5
+7/1/24 7:58:31 AM GMT session 0x300430715c50000 cxid 0x2 zxid 0x10000000c setACL '/21,v{s{30,s{'world,'anyone}}},1
+7/1/24 7:58:31 AM GMT session 0x2004307128b0000 cxid 0x11 zxid 0x10000000d create /15,0,[31,s{'world,'anyone}
+],false,6
+7/1/24 7:58:31 AM GMT session 0x2004307128b0000 cxid 0x12 zxid 0x10000000e setACL '/15,v{s{27,s{'world,'anyone}}},1
+7/1/24 7:58:31 AM GMT session 0x300430715c50000 cxid 0x5 zxid 0x10000000f create /22,0,[31,s{'world,'anyone}
+],false,7
+7/1/24 7:58:31 AM GMT session 0x300430715c50000 cxid 0x6 zxid 0x100000010 setACL '/22,v{s{27,s{'world,'anyone}}},1
+7/1/24 7:58:31 AM GMT session 0x2004307128b0000 cxid 0x15 zxid 0x100000011 create /16,0,[31,s{'world,'anyone}
+],false,8
+7/1/24 7:58:31 AM GMT session 0x2004307128b0000 cxid 0x16 zxid 0x100000012 setACL '/16,v{s{30,s{'world,'anyone}}},1
+7/1/24 7:58:32 AM GMT session 0x300430715c50000 cxid 0x9 zxid 0x100000013 create /23,0,[31,s{'world,'anyone}
+],false,9
+7/1/24 7:58:32 AM GMT session 0x2004307128b0000 cxid 0x19 zxid 0x100000014 create /17,0,[31,s{'world,'anyone}
+],false,10
+7/1/24 7:58:32 AM GMT session 0x300430715c50000 cxid 0xa zxid 0x100000015 setACL '/23,v{s{27,s{'world,'anyone}}},1
+7/1/24 7:58:32 AM GMT session 0x2004307128b0000 cxid 0x1a zxid 0x100000016 setACL '/17,v{s{23,s{'world,'anyone}}},1
+7/1/24 7:58:32 AM GMT session 0x300430715c50000 cxid 0xd zxid 0x100000017 create /24,0,[31,s{'world,'anyone}
+],false,11
+7/1/24 7:58:32 AM GMT session 0x2004307128b0000 cxid 0x1d zxid 0x100000018 create /18,0,[31,s{'world,'anyone}
+],false,12
+7/1/24 7:58:32 AM GMT session 0x2004307128b0000 cxid 0x1e zxid 0x100000019 setACL '/18,v{s{29,s{'world,'anyone}}},1
+7/1/24 7:58:32 AM GMT session 0x300430715c50000 cxid 0xe zxid 0x10000001a setACL '/24,v{s{27,s{'world,'anyone}}},1
+7/1/24 7:58:32 AM GMT session 0x2004307128b0000 cxid 0x21 zxid 0x10000001b create /19,0,[31,s{'world,'anyone}
+],false,13
+7/1/24 7:58:32 AM GMT session 0x300430715c50000 cxid 0x11 zxid 0x10000001c create /25,0,[31,s{'world,'anyone}
+],false,14
+7/1/24 7:58:32 AM GMT session 0x2004307128b0000 cxid 0x22 zxid 0x10000001d setACL '/19,v{s{30,s{'world,'anyone}}},1
+7/1/24 7:58:32 AM GMT session 0x300430715c50000 cxid 0x12 zxid 0x10000001e setACL '/25,v{s{30,s{'world,'anyone}}},1
+7/1/24 7:58:32 AM GMT session 0x2004307128b0000 cxid 0x25 zxid 0x10000001f create /20,0,[31,s{'world,'anyone}
+],false,15
+7/1/24 7:58:32 AM GMT session 0x300430715c50000 cxid 0x15 zxid 0x100000020 create /26,0,[31,s{'world,'anyone}
+],false,16
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x26 zxid 0x100000021 setACL '/20,v{s{23,s{'world,'anyone}}},1
+7/1/24 7:58:33 AM GMT session 0x300430715c50000 cxid 0x16 zxid 0x100000022 setACL '/26,v{s{29,s{'world,'anyone}}},1
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x29 zxid 0x100000023 error -102
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x2a zxid 0x100000024 error -102
+7/1/24 7:58:33 AM GMT session 0x300430715c50000 cxid 0x19 zxid 0x100000025 create /27,0,[31,s{'world,'anyone}
+],false,17
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x2b zxid 0x100000026 error -102
+7/1/24 7:58:33 AM GMT session 0x300430715c50000 cxid 0x1a zxid 0x100000027 setACL '/27,v{s{23,s{'world,'anyone}}},1
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x2c zxid 0x100000028 error -102
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x2d zxid 0x100000029 setData /13,123,1
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x2e zxid 0x10000002a setData /13,456,2
+7/1/24 7:58:33 AM GMT session 0x300430715c50000 cxid 0x1d zxid 0x10000002b create /28,0,[31,s{'world,'anyone}
+],false,18
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x2f zxid 0x10000002c setData /14,123,1
+7/1/24 7:58:33 AM GMT session 0x300430715c50000 cxid 0x1e zxid 0x10000002d setACL '/28,v{s{30,s{'world,'anyone}}},1
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x30 zxid 0x10000002e setData /14,456,2
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x31 zxid 0x10000002f setData /15,123,1
+7/1/24 7:58:33 AM GMT session 0x300430715c50000 cxid 0x21 zxid 0x100000030 create /29,0,[31,s{'world,'anyone}
+],false,19
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x32 zxid 0x100000031 setData /15,456,2
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x33 zxid 0x100000032 setData /16,123,1
+7/1/24 7:58:33 AM GMT session 0x300430715c50000 cxid 0x22 zxid 0x100000033 setACL '/29,v{s{29,s{'world,'anyone}}},1
+7/1/24 7:58:33 AM GMT session 0x2004307128b0000 cxid 0x34 zxid 0x100000034 setData /16,456,2
+7/1/24 7:58:34 AM GMT session 0x2004307128b0000 cxid 0x35 zxid 0x100000035 setData /17,123,1
+7/1/24 7:58:34 AM GMT session 0x300430715c50000 cxid 0x25 zxid 0x100000036 create /30,0,[31,s{'world,'anyone}
+],false,20
+7/1/24 7:58:34 AM GMT session 0x2004307128b0000 cxid 0x36 zxid 0x100000037 setData /17,456,2
+7/1/24 7:58:34 AM GMT session 0x300430715c50000 cxid 0x26 zxid 0x100000038 setACL '/30,v{s{29,s{'world,'anyone}}},1
+7/1/24 7:58:34 AM GMT session 0x2004307128b0000 cxid 0x37 zxid 0x100000039 error -102
+7/1/24 7:58:34 AM GMT session 0x2004307128b0000 cxid 0x38 zxid 0x10000003a error -102
+7/1/24 7:58:34 AM GMT session 0x2004307128b0000 cxid 0x39 zxid 0x10000003b setData /19,123,1
+7/1/24 7:58:34 AM GMT session 0x300430715c50000 cxid 0x29 zxid 0x10000003c setData /21,123,1
+7/1/24 7:58:34 AM GMT session 0x2004307128b0000 cxid 0x3a zxid 0x10000003d setData /19,456,2
+7/1/24 7:58:34 AM GMT session 0x300430715c50000 cxid 0x2a zxid 0x10000003e setData /21,456,2
+7/1/24 7:58:34 AM GMT session 0x2004307128b0000 cxid 0x3b zxid 0x10000003f setData /20,123,1
+7/1/24 7:58:34 AM GMT session 0x300430715c50000 cxid 0x2b zxid 0x100000040 setData /22,123,1
+7/1/24 7:58:34 AM GMT session 0x2004307128b0000 cxid 0x3c zxid 0x100000041 setData /20,456,2
+7/1/24 7:58:34 AM GMT session 0x2004307128b0000 cxid 0x3d zxid 0x100000042 error -110
+7/1/24 7:58:34 AM GMT session 0x300430715c50000 cxid 0x2c zxid 0x100000043 setData /22,456,2
+7/1/24 7:58:34 AM GMT session 0x300430715c50000 cxid 0x2d zxid 0x100000044 setData /23,123,1
+7/1/24 7:58:34 AM GMT session 0x300430715c50000 cxid 0x2e zxid 0x100000045 setData /23,456,2
+7/1/24 7:58:34 AM GMT session 0x2004307128b0000 cxid 0x41 zxid 0x100000046 error -110
+7/1/24 7:58:34 AM GMT session 0x300430715c50000 cxid 0x2f zxid 0x100000047 setData /24,123,1
+7/1/24 7:58:34 AM GMT session 0x300430715c50000 cxid 0x30 zxid 0x100000048 setData /24,456,2
+7/1/24 7:58:34 AM GMT session 0x300430715c50000 cxid 0x31 zxid 0x100000049 setData /25,123,1
+7/1/24 7:58:35 AM GMT session 0x300430715c50000 cxid 0x32 zxid 0x10000004a setData /25,456,2
+7/1/24 7:58:35 AM GMT session 0x2004307128b0000 cxid 0x45 zxid 0x10000004b error -110
+7/1/24 7:58:35 AM GMT session 0x300430715c50000 cxid 0x33 zxid 0x10000004c error -102
+7/1/24 7:58:35 AM GMT session 0x300430715c50000 cxid 0x34 zxid 0x10000004d error -102
+7/1/24 7:58:35 AM GMT session 0x300430715c50000 cxid 0x35 zxid 0x10000004e setData /27,123,1
+7/1/24 7:58:35 AM GMT session 0x2004307128b0000 cxid 0x49 zxid 0x10000004f error -110
+7/1/24 7:58:35 AM GMT session 0x300430715c50000 cxid 0x36 zxid 0x100000050 setData /27,456,2
+7/1/24 7:58:35 AM GMT session 0x300430715c50000 cxid 0x37 zxid 0x100000051 setData /28,123,1
+7/1/24 7:58:35 AM GMT session 0x300430715c50000 cxid 0x38 zxid 0x100000052 setData /28,456,2
+7/1/24 7:58:35 AM GMT session 0x2004307128b0000 cxid 0x4d zxid 0x100000053 error -110
+7/1/24 7:58:35 AM GMT session 0x300430715c50000 cxid 0x39 zxid 0x100000054 error -102
+7/1/24 7:58:35 AM GMT session 0x300430715c50000 cxid 0x3a zxid 0x100000055 error -102
+7/1/24 7:58:35 AM GMT session 0x300430715c50000 cxid 0x3b zxid 0x100000056 error -102
+7/1/24 7:58:35 AM GMT session 0x2004307128b0000 cxid 0x51 zxid 0x100000057 error -110
+7/1/24 7:58:35 AM GMT session 0x300430715c50000 cxid 0x3c zxid 0x100000058 error -102
+7/1/24 7:58:35 AM GMT session 0x300430715c50000 cxid 0x3d zxid 0x100000059 error -110
+7/1/24 7:58:35 AM GMT session 0x2004307128b0000 cxid 0x55 zxid 0x10000005a error -110
+7/1/24 7:58:36 AM GMT session 0x300430715c50000 cxid 0x41 zxid 0x10000005b error -110
+7/1/24 7:58:36 AM GMT session 0x2004307128b0000 cxid 0x59 zxid 0x10000005c error -110
+7/1/24 7:58:36 AM GMT session 0x300430715c50000 cxid 0x45 zxid 0x10000005d error -110
+7/1/24 7:58:36 AM GMT session 0x2004307128b0000 cxid 0x5d zxid 0x10000005e error -110
+7/1/24 7:58:36 AM GMT session 0x300430715c50000 cxid 0x49 zxid 0x10000005f error -110
+7/1/24 7:58:36 AM GMT session 0x2004307128b0000 cxid 0x61 zxid 0x100000060 error -110
+7/1/24 7:58:36 AM GMT session 0x300430715c50000 cxid 0x4d zxid 0x100000061 error -110
+7/1/24 7:58:37 AM GMT session 0x300430715c50000 cxid 0x51 zxid 0x100000062 error -110
+7/1/24 7:58:37 AM GMT session 0x300430715c50000 cxid 0x55 zxid 0x100000063 error -110
+7/1/24 7:58:37 AM GMT session 0x300430715c50000 cxid 0x59 zxid 0x100000064 error -110
+7/1/24 7:58:37 AM GMT session 0x300430715c50000 cxid 0x5d zxid 0x100000065 error -110
+7/1/24 7:58:37 AM GMT session 0x300430715c50000 cxid 0x61 zxid 0x100000066 error -110
+7/1/24 7:58:47 AM GMT session 0x100430712620000 cxid 0x0 zxid 0x100000067 createSession 15000
+7/1/24 7:58:47 AM GMT session 0x100430712620000 cxid 0x1 zxid 0x100000068 error -101
+7/1/24 7:58:47 AM GMT session 0x100430712620000 cxid 0x4 zxid 0x100000069 create /2,0,[31,s{'world,'anyone}
+],false,21
+7/1/24 7:58:47 AM GMT session 0x100430712620000 cxid 0x5 zxid 0x10000006a setACL '/2,v{s{29,s{'world,'anyone}}},1
+7/1/24 7:58:47 AM GMT session 0x100430712620000 cxid 0x8 zxid 0x10000006b create /3,0,[31,s{'world,'anyone}
+],false,22
+7/1/24 7:58:47 AM GMT session 0x100430712620000 cxid 0x9 zxid 0x10000006c setACL '/3,v{s{29,s{'world,'anyone}}},1
+7/1/24 7:58:48 AM GMT session 0x100430712620000 cxid 0xc zxid 0x10000006d create /4,0,[31,s{'world,'anyone}
+],false,23
+7/1/24 7:58:48 AM GMT session 0x100430712620000 cxid 0xd zxid 0x10000006e setACL '/4,v{s{30,s{'world,'anyone}}},1
+7/1/24 7:58:48 AM GMT session 0x100430712620000 cxid 0x10 zxid 0x10000006f create /5,0,[31,s{'world,'anyone}
+],false,24
+7/1/24 7:58:48 AM GMT session 0x100430712620000 cxid 0x11 zxid 0x100000070 setACL '/5,v{s{30,s{'world,'anyone}}},1
+7/1/24 7:58:48 AM GMT session 0x100430712620000 cxid 0x14 zxid 0x100000071 create /6,0,[31,s{'world,'anyone}
+],false,25
+7/1/24 7:58:48 AM GMT session 0x100430712620000 cxid 0x15 zxid 0x100000072 setACL '/6,v{s{27,s{'world,'anyone}}},1
+7/1/24 7:58:48 AM GMT session 0x100430712620000 cxid 0x18 zxid 0x100000073 create /7,0,[31,s{'world,'anyone}
+],false,26
+7/1/24 7:58:49 AM GMT session 0x100430712620000 cxid 0x19 zxid 0x100000074 setACL '/7,v{s{23,s{'world,'anyone}}},1
+7/1/24 7:58:49 AM GMT session 0x100430712620000 cxid 0x1c zxid 0x100000075 create /8,0,[31,s{'world,'anyone}
+],false,27
+7/1/24 7:58:49 AM GMT session 0x100430712620000 cxid 0x1d zxid 0x100000076 setACL '/8,v{s{27,s{'world,'anyone}}},1
+7/1/24 7:58:49 AM GMT session 0x100430712620000 cxid 0x20 zxid 0x100000077 create /9,0,[31,s{'world,'anyone}
+],false,28
+7/1/24 7:58:49 AM GMT session 0x100430712620000 cxid 0x21 zxid 0x100000078 setACL '/9,v{s{30,s{'world,'anyone}}},1
+7/1/24 7:58:49 AM GMT session 0x100430712620000 cxid 0x24 zxid 0x100000079 create /10,0,[31,s{'world,'anyone}
+],false,29
+7/1/24 7:58:49 AM GMT session 0x100430712620000 cxid 0x25 zxid 0x10000007a setACL '/10,v{s{29,s{'world,'anyone}}},1
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x28 zxid 0x10000007b error -101
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x29 zxid 0x10000007c error -101
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x2a zxid 0x10000007d error -102
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x2b zxid 0x10000007e error -102
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x2c zxid 0x10000007f error -102
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x2d zxid 0x100000080 error -102
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x2e zxid 0x100000081 setData /4,123,1
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x2f zxid 0x100000082 setData /4,456,2
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x30 zxid 0x100000083 setData /5,123,1
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x31 zxid 0x100000084 setData /5,456,2
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x32 zxid 0x100000085 setData /6,123,1
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x33 zxid 0x100000086 setData /6,456,2
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x34 zxid 0x100000087 setData /7,123,1
+7/1/24 7:58:50 AM GMT session 0x100430712620000 cxid 0x35 zxid 0x100000088 setData /7,456,2
+7/1/24 7:58:51 AM GMT session 0x100430712620000 cxid 0x36 zxid 0x100000089 setData /8,123,1
+7/1/24 7:58:51 AM GMT session 0x100430712620000 cxid 0x37 zxid 0x10000008a setData /8,456,2
+7/1/24 7:58:51 AM GMT session 0x100430712620000 cxid 0x38 zxid 0x10000008b setData /9,123,1
+7/1/24 7:58:51 AM GMT session 0x100430712620000 cxid 0x39 zxid 0x10000008c setData /9,456,2
+7/1/24 7:58:51 AM GMT session 0x100430712620000 cxid 0x3a zxid 0x10000008d error -102
+7/1/24 7:58:51 AM GMT session 0x100430712620000 cxid 0x3b zxid 0x10000008e error -102
+7/1/24 7:58:51 AM GMT session 0x100430712620000 cxid 0x3c zxid 0x10000008f create /1,0,[31,s{'world,'anyone}
+],false,30
+7/1/24 7:58:51 AM GMT session 0x100430712620000 cxid 0x40 zxid 0x100000090 error -110
+7/1/24 7:58:51 AM GMT session 0x100430712620000 cxid 0x44 zxid 0x100000091 error -110
+7/1/24 7:58:51 AM GMT session 0x2004307128b0000 cxid 0x0 zxid 0x100000092 closeSession v{}
+7/1/24 7:58:52 AM GMT session 0x100430712620000 cxid 0x48 zxid 0x100000093 error -110
+7/1/24 7:58:52 AM GMT session 0x100430712620000 cxid 0x4c zxid 0x100000094 error -110
+7/1/24 7:58:52 AM GMT session 0x100430712620000 cxid 0x50 zxid 0x100000095 error -110
+7/1/24 7:58:52 AM GMT session 0x100430712620000 cxid 0x54 zxid 0x100000096 error -110
+7/1/24 7:58:52 AM GMT session 0x100430712620000 cxid 0x58 zxid 0x100000097 error -110
+7/1/24 7:58:53 AM GMT session 0x100430712620000 cxid 0x5c zxid 0x100000098 error -110
+7/1/24 7:58:53 AM GMT session 0x100430712620000 cxid 0x60 zxid 0x100000099 error -110
+EOF reached after 153 txns.
+2024-07-01 07:58:27,072 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@177] - Reading configuration from: /apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../conf/zoo.cfg
+2024-07-01 07:58:27,147 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@440] - clientPortAddress is 0.0.0.0:2181
+2024-07-01 07:58:27,148 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+2024-07-01 07:58:27,148 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+2024-07-01 07:58:27,148 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2024-07-01 07:58:27,176 [myid:3] - INFO  [main:o.a.z.s.DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2024-07-01 07:58:27,176 [myid:3] - INFO  [main:o.a.z.s.DatadirCleanupManager@79] - autopurge.purgeInterval set to 1
+2024-07-01 07:58:27,177 [myid:] - INFO  [PurgeTask:o.a.z.s.DatadirCleanupManager$PurgeTask@139] - Purge task started.
+2024-07-01 07:58:27,177 [myid:3] - INFO  [main:o.a.z.j.ManagedUtil@46] - Log4j 1.2 jmx support not found; jmx disabled.
+2024-07-01 07:58:27,177 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeerMain@152] - Starting quorum peer, myid=3
+2024-07-01 07:58:27,179 [myid:] - INFO  [PurgeTask:o.a.z.s.p.FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2024-07-01 07:58:27,186 [myid:3] - INFO  [main:o.a.z.s.ServerMetrics@64] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@197d671
+2024-07-01 07:58:27,187 [myid:3] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@51] - ACL digest algorithm is: SHA1
+2024-07-01 07:58:27,188 [myid:3] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@65] - zookeeper.DigestAuthenticationProvider.enabled = true
+2024-07-01 07:58:27,191 [myid:] - INFO  [PurgeTask:o.a.z.s.DatadirCleanupManager$PurgeTask@145] - Purge task completed.
+2024-07-01 07:58:27,192 [myid:3] - INFO  [main:o.a.z.s.ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2024-07-01 07:58:27,193 [myid:3] - WARN  [main:o.a.z.s.ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2024-07-01 07:58:27,194 [myid:3] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@665] - Configuring NIO connection handler with 10s sessionless connection timeout, 7 selector thread(s), 224 worker threads, and 64 kB direct buffers.
+2024-07-01 07:58:27,204 [myid:3] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@673] - binding to port 0.0.0.0/0.0.0.0:2181
+2024-07-01 07:58:27,213 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@801] - zookeeper.quorumCnxnTimeoutMs=-1
+2024-07-01 07:58:27,227 [myid:3] - INFO  [main:o.e.j.u.l.Log@170] - Logging initialized @497ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-07-01 07:58:27,285 [myid:3] - WARN  [main:o.e.j.s.h.ContextHandler@1662] - o.e.j.s.ServletContextHandler@c86b9e3{/,null,STOPPED} contextPath ends with /*
+2024-07-01 07:58:27,286 [myid:3] - WARN  [main:o.e.j.s.h.ContextHandler@1673] - Empty contextPath
+2024-07-01 07:58:27,298 [myid:3] - INFO  [main:o.a.z.c.X509Util@88] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2024-07-01 07:58:27,396 [myid:3] - INFO  [main:o.a.z.c.X509Util@110] - Default TLS protocol is TLSv1.3, supported TLS protocols are [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1, SSLv3, SSLv2Hello]
+2024-07-01 07:58:27,400 [myid:3] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2024-07-01 07:58:27,407 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1781] - Local sessions disabled
+2024-07-01 07:58:27,407 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1792] - Local session upgrading disabled
+2024-07-01 07:58:27,407 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1759] - tickTime set to 2000
+2024-07-01 07:58:27,407 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1803] - minSessionTimeout set to 4000
+2024-07-01 07:58:27,407 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1814] - maxSessionTimeout set to 40000
+2024-07-01 07:58:27,407 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1839] - initLimit set to 10
+2024-07-01 07:58:27,407 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2026] - syncLimit set to 5
+2024-07-01 07:58:27,408 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2041] - connectToLearnerMasterLimit set to 0
+2024-07-01 07:58:27,419 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+2024-07-01 07:58:27,419 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -   ______                  _                                          
+2024-07-01 07:58:27,419 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -  |___  /                 | |                                         
+2024-07-01 07:58:27,419 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2024-07-01 07:58:27,419 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2024-07-01 07:58:27,419 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2024-07-01 07:58:27,419 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2024-07-01 07:58:27,419 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               | |                     
+2024-07-01 07:58:27,419 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               |_|                     
+2024-07-01 07:58:27,419 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:zookeeper.version=3.10.0-SNAPSHOT-317eb2cb1cb10b80a2c2f8bc3cc1cc74493a0106-dirty, built on 2024-07-01 02:08 UTC
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:host.name=0b0b608d33af
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.version=1.8.0_362
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.vendor=Private Build
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.class.path=/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/classes:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../zookeeper-server/target/classes:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../build/classes:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/lib/*.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../zookeeper-server/target/lib/*.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../build/lib/*.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/zookeeper-prometheus-metrics-3.10.0-SNAPSHOT.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/zookeeper-jute-3.10.0-SNAPSHOT.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/zookeeper-3.10.0-SNAPSHOT.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/snappy-java-1.1.10.5.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/slf4j-api-1.7.30.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/simpleclient_servlet-0.9.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/simpleclient_hotspot-0.9.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/simpleclient_common-0.9.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/simpleclient-0.9.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-transport-native-unix-common-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-transport-native-epoll-4.1.94.Final-linux-x86_64.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-transport-classes-epoll-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-transport-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-classes-2.0.61.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.61.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-resolver-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-handler-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-common-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-codec-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/netty-buffer-4.1.94.Final.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/metrics-core-4.1.12.1.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/logback-core-1.2.10.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/logback-classic-1.2.10.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jline-2.14.6.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-util-ajax-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-util-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-servlet-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-server-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-security-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-io-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jetty-http-9.4.52.v20230823.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/javax.servlet-api-3.1.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jackson-databind-2.15.2.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jackson-core-2.15.2.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/jackson-annotations-2.15.2.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/commons-io-2.11.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/commons-cli-1.5.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../lib/audience-annotations-0.12.0.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../zookeeper-*.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../zookeeper-server/src/main/resources/lib/*.jar:/apache-zookeeper-3.10.0-SNAPSHOT-bin/bin/../conf:
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.io.tmpdir=/tmp
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.compiler=<NA>
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:os.name=Linux
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:os.arch=amd64
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:os.version=5.4.0-84-generic
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:user.name=root
+2024-07-01 07:58:27,422 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:user.home=/root
+2024-07-01 07:58:27,423 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:user.dir=/apache-zookeeper-3.10.0-SNAPSHOT-bin
+2024-07-01 07:58:27,423 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.free=889MB
+2024-07-01 07:58:27,423 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.max=958MB
+2024-07-01 07:58:27,423 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.total=958MB
+2024-07-01 07:58:27,423 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@149] - zookeeper.enableEagerACLCheck = false
+2024-07-01 07:58:27,423 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@162] - zookeeper.digest.enabled = true
+2024-07-01 07:58:27,423 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@166] - zookeeper.closeSessionTxn.enabled = true
+2024-07-01 07:58:27,423 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@2251] - zookeeper.serializeLastProcessedZxid.enabled = true
+2024-07-01 07:58:27,423 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@1594] - zookeeper.flushDelay = 0 ms
+2024-07-01 07:58:27,423 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@1603] - zookeeper.maxWriteQueuePollTime = 0 ms
+2024-07-01 07:58:27,423 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@1612] - zookeeper.maxBatchSize=1000
+2024-07-01 07:58:27,423 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@287] - zookeeper.intBufferStartingSizeBytes = 1024
+2024-07-01 07:58:27,428 [myid:3] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2024-07-01 07:58:27,428 [myid:3] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2024-07-01 07:58:27,428 [myid:3] - INFO  [main:o.a.z.s.ZKDatabase@135] - zookeeper.snapshotSizeFactor = 0.33
+2024-07-01 07:58:27,429 [myid:3] - INFO  [main:o.a.z.s.ZKDatabase@155] - zookeeper.commitLogCount=500
+2024-07-01 07:58:27,449 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2105] - Using insecure (non-TLS) quorum communication
+2024-07-01 07:58:27,450 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2111] - Port unification disabled
+2024-07-01 07:58:27,450 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@184] - multiAddress.enabled set to false
+2024-07-01 07:58:27,450 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@209] - multiAddress.reachabilityCheckEnabled set to true
+2024-07-01 07:58:27,450 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@196] - multiAddress.reachabilityCheckTimeoutMs set to 1000
+2024-07-01 07:58:27,450 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2573] - QuorumPeer communication is not secured! (SASL auth disabled)
+2024-07-01 07:58:27,450 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2598] - quorum.cnxn.threads.size set to 20
+2024-07-01 07:58:27,461 [myid:3] - INFO  [main:o.a.z.s.p.SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2024-07-01 07:58:27,461 [myid:3] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@480] - Snapshotting: 0x0 to /apache-zookeeper-3.10.0-SNAPSHOT-bin/data/version-2/snapshot.0
+2024-07-01 07:58:27,482 [myid:3] - INFO  [main:o.a.z.s.ZKDatabase@292] - Snapshot loaded in 31 ms, highest zxid is 0x0, digest is 1371985504
+2024-07-01 07:58:27,482 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1161] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2024-07-01 07:58:27,488 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1189] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2024-07-01 07:58:27,498 [myid:3] - INFO  [main:o.e.j.s.Server@375] - jetty-9.4.52.v20230823; built: 2023-08-23T19:29:37.669Z; git: abdcda73818a1a2c705da276edb0bf6581e7997e; jvm 1.8.0_362-8u372-ga~us1-0ubuntu1~18.04-b09
+2024-07-01 07:58:27,520 [myid:3] - INFO  [main:o.e.j.s.s.DefaultSessionIdManager@334] - DefaultSessionIdManager workerName=node0
+2024-07-01 07:58:27,520 [myid:3] - INFO  [main:o.e.j.s.s.DefaultSessionIdManager@339] - No SessionScavenger set, using defaults
+2024-07-01 07:58:27,521 [myid:3] - INFO  [main:o.e.j.s.s.HouseKeeper@132] - node0 Scavenging every 600000ms
+2024-07-01 07:58:27,524 [myid:3] - WARN  [main:o.e.j.s.ConstraintSecurityHandler@759] - ServletContext@o.e.j.s.ServletContextHandler@c86b9e3{/,null,STARTING} has uncovered http methods for path: /*
+2024-07-01 07:58:27,531 [myid:3] - INFO  [main:o.e.j.s.h.ContextHandler@921] - Started o.e.j.s.ServletContextHandler@c86b9e3{/,null,AVAILABLE}
+2024-07-01 07:58:27,539 [myid:3] - INFO  [main:o.e.j.s.AbstractConnector@333] - Started ServerConnector@f5958c9{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2024-07-01 07:58:27,540 [myid:3] - INFO  [main:o.e.j.s.Server@415] - Started @809ms
+2024-07-01 07:58:27,540 [myid:3] - INFO  [main:o.a.z.s.a.JettyAdminServer@201] - Started AdminServer on address 0.0.0.0, port 8080 and command URL /commands
+2024-07-01 07:58:27,540 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2615] - Using 10000ms as the quorum cnxn socket timeout
+2024-07-01 07:58:27,544 [myid:3] - INFO  [main:o.a.z.s.q.QuorumCnxManager$Listener@924] - Election port bind maximum retries is 3
+2024-07-01 07:58:27,545 [myid:3] - INFO  [main:o.a.z.s.q.FastLeaderElection@90] - zookeeper.fastleader.minNotificationInterval = 200 ms
+2024-07-01 07:58:27,545 [myid:3] - INFO  [main:o.a.z.s.q.FastLeaderElection@92] - zookeeper.fastleader.maxNotificationInterval = 60000 ms
+2024-07-01 07:58:27,547 [myid:3] - INFO  [main:o.a.z.a.ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2024-07-01 07:58:27,551 [myid:] - INFO  [ListenerHandler-/172.30.0.4:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1071] - 3 is accepting connections now, my election bind port: /172.30.0.4:3888
+2024-07-01 07:58:27,563 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1471] - LOOKING
+2024-07-01 07:58:27,565 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.FastLeaderElection@946] - New election. My id = 3, proposed zxid=0x0
+2024-07-01 07:58:27,628 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2024-07-01 07:58:27,647 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2024-07-01 07:58:27,663 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2024-07-01 07:58:27,679 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:FOLLOWING, n.leader:2, n.round:0x1, n.peerEpoch:0x1, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2024-07-01 07:58:27,696 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LEADING, n.leader:2, n.round:0x1, n.peerEpoch:0x1, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2024-07-01 07:58:27,696 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@906] - Peer state changed: following
+2024-07-01 07:58:27,697 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1554] - FOLLOWING
+2024-07-01 07:58:27,703 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.Learner@130] - leaderConnectDelayDuringRetryMs: 100
+2024-07-01 07:58:27,703 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.Learner@131] - TCP NoDelay set to: true
+2024-07-01 07:58:27,703 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.Learner@132] - zookeeper.learner.asyncSending = false
+2024-07-01 07:58:27,703 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.Learner@133] - zookeeper.learner.closeSocketAsync = false
+2024-07-01 07:58:27,705 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.BlueThrottle@141] - Weighed connection throttling is disabled
+2024-07-01 07:58:27,706 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@66] - zookeeper.enforce.auth.enabled = false
+2024-07-01 07:58:27,706 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@67] - zookeeper.enforce.auth.schemes = []
+2024-07-01 07:58:27,708 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1406] - minSessionTimeout set to 4000 ms
+2024-07-01 07:58:27,708 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1415] - maxSessionTimeout set to 40000 ms
+2024-07-01 07:58:27,708 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.ResponseCache@45] - getData response cache size is initialized with value 400.
+2024-07-01 07:58:27,709 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.ResponseCache@45] - getChildren response cache size is initialized with value 400.
+2024-07-01 07:58:27,709 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@109] - zookeeper.pathStats.slotCapacity = 60
+2024-07-01 07:58:27,710 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@110] - zookeeper.pathStats.slotDuration = 15
+2024-07-01 07:58:27,710 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@111] - zookeeper.pathStats.maxDepth = 6
+2024-07-01 07:58:27,710 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@112] - zookeeper.pathStats.initialDelay = 5
+2024-07-01 07:58:27,710 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@113] - zookeeper.pathStats.delay = 5
+2024-07-01 07:58:27,710 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@114] - zookeeper.pathStats.enabled = false
+2024-07-01 07:58:27,711 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1631] - The max bytes for all large requests are set to 104857600
+2024-07-01 07:58:27,711 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1645] - The large request threshold is set to -1
+2024-07-01 07:58:27,712 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@385] - Created server with tickTime 2000 ms minSessionTimeout 4000 ms maxSessionTimeout 40000 ms clientPortListenBacklog -1 datadir /apache-zookeeper-3.10.0-SNAPSHOT-bin/logs/version-2 snapdir /apache-zookeeper-3.10.0-SNAPSHOT-bin/data/version-2
+2024-07-01 07:58:27,712 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.Follower@77] - FOLLOWING - LEADER ELECTION TOOK - 148 MS
+2024-07-01 07:58:27,715 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - discovery
+2024-07-01 07:58:27,723 [myid:] - INFO  [LeaderConnector-/172.30.0.3:2888:o.a.z.s.q.Learner$LeaderConnector@380] - Successfully connected to leader, using address: /172.30.0.3:2888
+2024-07-01 07:58:27,745 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - synchronization
+2024-07-01 07:58:27,760 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@925] - Peer state changed: following - synchronization - snap
+2024-07-01 07:58:27,760 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.Learner@572] - Getting a snapshot from leader 0x100000000
+2024-07-01 07:58:27,762 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2024-07-01 07:58:27,762 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+deserialize:
+aclIndex:1
+2024-07-01 07:58:27,794 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.Learner@733] - Learner received NEWLEADER message
+2024-07-01 07:58:27,807 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1909] - Dynamic reconfig is disabled, we don't store the last seen config.
+2024-07-01 07:58:27,808 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.p.FileTxnSnapLog@480] - Snapshotting: 0x100000000 to /apache-zookeeper-3.10.0-SNAPSHOT-bin/data/version-2/snapshot.100000000
+2024-07-01 07:58:27,820 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@589] - Snapshot taken in 13 ms
+2024-07-01 07:58:27,823 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@925] - Peer state changed: following - synchronization
+2024-07-01 07:58:27,828 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@489] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2024-07-01 07:58:27,828 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@450] - Configuring CommitProcessor with 112 worker threads.
+2024-07-01 07:58:27,830 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.FollowerRequestProcessor@59] - Initialized FollowerRequestProcessor with zookeeper.follower.skipLearnerRequestToNextProcessor as false
+2024-07-01 07:58:27,832 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.RequestThrottler@75] - zookeeper.request_throttler.shutdownTimeout = 10000 ms
+2024-07-01 07:58:27,845 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.Learner@717] - Learner received UPTODATE message
+2024-07-01 07:58:27,847 [myid:] - INFO  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - broadcast
+2024-07-01 07:58:30,336 [myid:] - WARN  [QuorumPeer[myid=3](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.Follower@169] - Got zxid 0x100000001 expected 0x1
+2024-07-01 07:58:30,337 [myid:] - INFO  [SyncThread:3:o.a.z.s.p.FileTxnLog@284] - Creating new log file: log.100000001
+2024-07-01 07:58:30,346 [myid:] - INFO  [CommitProcessor:3:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x2004307128b0000
+2024-07-01 07:58:31,355 [myid:] - INFO  [CommitProcessor:3:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x300430715c50000
+2024-07-01 07:58:38,430 [myid:] - INFO  [NIOWorkerThread-203:o.a.z.s.NIOServerCnxn@340] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:46330, session = 0x300430715c50000
+2024-07-01 07:58:47,207 [myid:] - INFO  [CommitProcessor:3:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x100430712620000
