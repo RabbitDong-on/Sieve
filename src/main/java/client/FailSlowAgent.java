@@ -1,6 +1,7 @@
 package client;
 import java.io.FileNotFoundException;
 import java.io.SyncFailedException;
+import java.lang.reflect.Constructor;
 import java.net.MalformedURLException;
 import java.net.UnknownHostException;
 import java.nio.channels.ClosedChannelException;
@@ -12,7 +13,7 @@ import java.rmi.RemoteException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
-
+import java.lang.reflect.Constructor;
 import javax.net.ssl.SSLPeerUnverifiedException;
 
 import utils.*;
@@ -96,7 +97,32 @@ public class FailSlowAgent{
             throw ioe;
         }
     }
-    public static void throwException(String exceptionName) throws SocketException, ClosedChannelException, FileNotFoundException, UnknownHostException, SyncFailedException, SSLPeerUnverifiedException,IOException{
+
+
+    public static void throwException(String exceptionClassName) {
+        try {
+            Class<?> exceptionClass = Class.forName(exceptionClassName);
+            
+            if (!Throwable.class.isAssignableFrom(exceptionClass)) {
+                throw new IllegalArgumentException(exceptionClassName + " 不是Throwable的子类");
+            }
+            
+            Constructor<?> constructor = exceptionClass.getDeclaredConstructor();
+            constructor.setAccessible(true);
+            
+            Throwable exception = (Throwable) constructor.newInstance();
+            throw exception;
+            
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException("ClassNotFoundException: " + exceptionClassName, e);
+        } catch (NoSuchMethodException e) {
+            throw new RuntimeException("NoSuchMethodException: " + exceptionClassName, e);
+        } catch (Exception e) {
+            throw new RuntimeException("Fail to create: " + exceptionClassName, e);
+        }
+    }
+
+    public static void throwException_static(String exceptionName) throws SocketException, ClosedChannelException, FileNotFoundException, UnknownHostException, SyncFailedException, SSLPeerUnverifiedException,IOException{
         if(exceptionName.equals("java.nio.channels.ClosedChannelException")){
             throw new java.nio.channels.ClosedChannelException();
         }else if(exceptionName.equals("java.net.SocketException")){
